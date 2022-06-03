@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+Polynoms ..> CalcPoly
+Polynoms : main()
+CalcPoly ..> AdaptData
+CalcPoly : calcpoly()
+AdaptData ..> Parsing
+Parsing : parsing()
+AdaptData : adaptData()
+
+@enduml
